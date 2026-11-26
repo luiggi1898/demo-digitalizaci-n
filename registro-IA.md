@@ -31,3 +31,13 @@ Un intento más largo, pidiendo los 6 hitos en orden con su año, dio el error "
 **Revisión:** los 6 hitos aparecen en orden y con su año, y 2012 y 2025 van destacados. Las cifras coinciden con mi tabla: 520.000 unidades robóticas, un millón de robots y un 10 % en DeepFleet. Lo único que añade es que AWS "refuerza la capacidad operativa global", que es una interpretación general.
 
 **Archivo:** `infografia_NotebookLM.png`. En la web: `proyecto-amazon/img/infografia-notebooklm.jpg`.
+
+## Esquemas
+
+- **Herramienta:** Claude (IA). Lo revisé comparándolo con mi tabla de hitos y las fuentes.
+- **Esquema del proceso antes y después** (`proyecto-amazon/img/esquema-proceso.svg`): compara la tarea, la tecnología, la información que circula y lo que cambió para las personas al preparar un pedido sin robots y con robots.
+  - Fuentes: Diez años de robótica en Amazon; Amazon: un millón de robots.
+- **Esquema de departamentos y mercados** (`proyecto-amazon/img/esquema-departamentos.svg`): muestra los segmentos de Amazon (Norteamérica, Internacional y AWS), los departamentos que participan en el pedido y el mercado español.
+  - Fuentes: informes anuales de Amazon; notas de prensa de Amazon España.
+
+**Revisión:** las fechas (2011, 2012 y 2026) y las cifras (unas 40 instalaciones en España) coinciden con las notas de prensa de Amazon España.
