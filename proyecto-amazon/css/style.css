@@ -115,6 +115,34 @@ section h2 {
   max-width: 900px;
 }
 
+.galeria .card {
+  overflow: hidden;
+  border: 0;
+  box-shadow: 0 6px 18px rgb(19 26 34 / 15%);
+  transition: transform .2s;
+}
+
+.galeria .card:hover {
+  transform: translateY(-4px);
+}
+
+.galeria .card img {
+  transition: transform .3s;
+}
+
+.galeria .card:hover img {
+  transform: scale(1.06);
+}
+
+.galeria figcaption strong {
+  display: inline-block;
+  margin-right: .25rem;
+  padding: 0 .45rem;
+  border-radius: .3rem;
+  background: #ff9900;
+  color: #131a22;
+}
+
 .galeria figcaption {
   padding: .6rem;
   font-size: .85rem;
@@ -150,7 +178,9 @@ section h2 {
 }
 
 .infografia {
-  width: min(100%, 1000px);
+  width: min(100%, 800px);
+  border-radius: .75rem;
+  box-shadow: 0 10px 30px rgb(19 26 34 / 20%);
 }
 
 figure img {
