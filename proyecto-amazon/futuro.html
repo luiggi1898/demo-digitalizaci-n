@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Diagnóstico y propuesta de mejora digital para Amazon, con las fuentes usadas.">
+  <title>Mejora digital | Proyecto Amazon</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/css/bootstrap.min.css"
+        rel="stylesheet" integrity="sha384-yEPZ7jP9S0QKiUQ0m3jjsO4ProIW7wvR9gXkI7JOGa2XVsw53Yke2bsdkBbjmmiX"
+        crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="d-flex flex-column min-vh-100">
+  <a class="visually-hidden-focusable skip-link" href="#contenido">Saltar al contenido</a>
+
+  <nav class="navbar navbar-expand-md fixed-top site-nav" aria-label="Navegación principal">
+    <div class="container">
+      <a class="navbar-brand fw-bold d-flex align-items-center gap-2" href="index.html">
+        <img src="img/logo-amazon.png" class="logo-nav" width="500" height="317" alt="">
+        Proyecto Amazon
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#menuPrincipal" aria-controls="menuPrincipal"
+              aria-expanded="false" aria-label="Mostrar u ocultar la navegación">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menuPrincipal">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="evolucion.html">Evolución</a></li>
+          <li class="nav-item"><a class="nav-link active" href="futuro.html" aria-current="page">Mejora digital</a></li>
+          <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main id="contenido" tabindex="-1">
+    <header class="cabecera">
+      <div class="container">
+        <h1>Diagnóstico y mejora digital</h1>
+        <p class="mb-0">Qué he aprendido de la evolución de Amazon y qué mejora propondría para su futuro.</p>
+      </div>
+    </header>
+
+    <section aria-labelledby="titulo-diagnostico">
+      <div class="container">
+        <h2 id="titulo-diagnostico">Diagnóstico</h2>
+        <p>
+          La tecnología ha cambiado a Amazon en tres cosas: la forma de <strong>vender</strong>
+          (de una librería online a una tienda con millones de productos), la forma de
+          <strong>trabajar</strong> en el almacén (los robots traen los productos al trabajador)
+          y la forma de <strong>generar valor</strong> (AWS vende a otras empresas la tecnología
+          que Amazon creó para sí misma).
+        </p>
+        <p>
+          El punto débil que veo es que, con tantos robots, el trabajo de las personas cambia mucho y
+          necesitan aprender tareas nuevas, como supervisar y mantener los robots.
+        </p>
+      </div>
+    </section>
+
+    <section class="bg-light" aria-labelledby="titulo-propuesta">
+      <div class="container">
+        <h2 id="titulo-propuesta">Mi propuesta</h2>
+        <!-- Propuesta: cambia o amplía este texto con tu idea. -->
+        <div class="accordion" id="acordeonPropuesta">
+          <div class="accordion-item">
+            <h3 class="accordion-header">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#idea" aria-expanded="true" aria-controls="idea">
+                La idea
+              </button>
+            </h3>
+            <div id="idea" class="accordion-collapse collapse show" data-bs-parent="#acordeonPropuesta">
+              <div class="accordion-body">
+                Una aplicación de formación con realidad aumentada para los trabajadores de los centros
+                logísticos de España. Con una tablet o unas gafas, el trabajador ve paso a paso cómo
+                revisar o arreglar un robot.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h3 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#porque" aria-expanded="false" aria-controls="porque">
+                Por qué
+              </button>
+            </h3>
+            <div id="porque" class="accordion-collapse collapse" data-bs-parent="#acordeonPropuesta">
+              <div class="accordion-body">
+                Amazon tiene ya más de un millón de robots. Si los trabajadores saben mantenerlos, los
+                robots paran menos y las personas consiguen trabajos más cualificados.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h3 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#medir" aria-expanded="false" aria-controls="medir">
+                Cómo se mediría
+              </button>
+            </h3>
+            <div id="medir" class="accordion-collapse collapse" data-bs-parent="#acordeonPropuesta">
+              <div class="accordion-body">
+                Contando cuántos trabajadores terminan la formación, cuánto tiempo pasa un robot
+                parado por una avería y la opinión de los empleados.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Fuentes oficiales (mínimo 3) -->
+    <section aria-labelledby="titulo-fuentes">
+      <div class="container">
+        <h2 id="titulo-fuentes">Fuentes</h2>
+        <ol>
+          <li><a href="https://www.aboutamazon.com/news/operations/10-years-of-amazon-robotics-how-robots-help-sort-packages-move-product-and-improve-safety">Amazon: diez años de robótica en Amazon</a> (2022)</li>
+          <li><a href="https://www.aboutamazon.com/news/operations/amazon-million-robots-ai-foundation-model">Amazon: un millón de robots y DeepFleet</a> (2025)</li>
+          <li><a href="https://press.aboutamazon.com/es/2012/7/el-primer-centro-logistico-de-amazon-en-espana-ya-esta-operativo-y-ha-enviado-sus-primeros-pedidos-a-clientes">Amazon España: primer centro logístico operativo</a> (2012)</li>
+          <li><a href="https://press.aboutamazon.com/es/news/company-news/2026/8/amazon-celebra-primer-aniversario-reapertura-tours-espana">Amazon España: tours por los centros logísticos</a> (2026)</li>
+          <li><a href="https://ir.aboutamazon.com/annual-reports-proxies-and-shareholder-letters/default.aspx">Amazon: informes anuales y cartas a los accionistas</a></li>
+        </ol>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer mt-auto">
+    <div class="container d-flex flex-wrap justify-content-between gap-2">
+      <span>Proyecto de Digitalización · Luiggi</span>
+      <small>Trabajo de clase, sin relación oficial con Amazon</small>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-WyOxWvTyr1QaMPfiPJSv76iReVthorl5uWlFtZPyK0IEB0hGzo9y5Bp9mYanr8Bu"
+          crossorigin="anonymous"></script>
+</body>
+</html>

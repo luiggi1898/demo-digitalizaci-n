@@ -1,0 +1,190 @@
+/* Estilos de mi proyecto. Bootstrap hace casi todo el trabajo. */
+:root {
+  --texto: #1f2933;
+  --gris: #555f6b;
+  --naranja: #c45500;
+  --naranja-oscuro: #9a4300;
+  --fondo-claro: #fff6ec;
+  --borde: #e2ddd6;
+}
+
+body {
+  padding-top: 4.5rem;
+  color: var(--texto);
+  font-family: system-ui, sans-serif;
+  line-height: 1.6;
+}
+
+:focus-visible {
+  outline: 3px solid var(--naranja);
+  outline-offset: 3px;
+}
+
+.skip-link {
+  position: fixed;
+  z-index: 1040;
+  top: .5rem;
+  left: .5rem;
+  padding: .5rem 1rem;
+  background: #fff;
+}
+
+/* Barra de navegación */
+.site-nav {
+  background: #232f3e;
+}
+
+.site-nav .navbar-brand,
+.site-nav .nav-link {
+  color: #fff;
+}
+
+.site-nav .nav-link:hover,
+.site-nav .nav-link.active {
+  color: #ffb366;
+  text-decoration: underline;
+}
+
+.site-nav .navbar-toggler {
+  border-color: #fff;
+}
+
+.site-nav .navbar-toggler-icon {
+  filter: invert(1);
+}
+
+/* Cabecera de cada página */
+.cabecera {
+  padding: 3rem 0;
+  background: var(--fondo-claro);
+  border-bottom: 1px solid var(--borde);
+}
+
+.cabecera h1 {
+  font-weight: 700;
+}
+
+.cabecera p {
+  max-width: 60ch;
+  color: var(--gris);
+}
+
+.pregunta {
+  border-left: 4px solid var(--naranja);
+  padding-left: 1rem;
+  font-style: italic;
+}
+
+section {
+  padding: 2.5rem 0;
+}
+
+section h2 {
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.card {
+  border-color: var(--borde);
+}
+
+.card h3 {
+  color: var(--naranja-oscuro);
+}
+
+/* Botón naranja */
+.btn-naranja {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: var(--naranja);
+  --bs-btn-border-color: var(--naranja);
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: var(--naranja-oscuro);
+  --bs-btn-hover-border-color: var(--naranja-oscuro);
+  --bs-btn-active-bg: var(--naranja-oscuro);
+}
+
+/* Fotos del mismo tamaño en las tarjetas */
+.foto {
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+/* Galería y fotos un poco más pequeñas */
+.galeria {
+  max-width: 900px;
+}
+
+.galeria figcaption {
+  padding: .6rem;
+  font-size: .85rem;
+}
+
+.foto-proceso {
+  max-height: 220px;
+}
+
+.video {
+  max-width: 720px;
+}
+
+.video-enlace {
+  position: relative;
+  display: block;
+}
+
+.video-enlace img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.video-play {
+  position: absolute;
+  inset: auto auto 1rem 1rem;
+  padding: .5rem 1rem;
+  border-radius: .5rem;
+  background: #c00;
+  color: #fff;
+  font-weight: 700;
+}
+
+.infografia {
+  width: min(100%, 1000px);
+}
+
+figure img {
+  max-width: 100%;
+  height: auto;
+}
+
+figcaption {
+  font-size: .9rem;
+  color: var(--gris);
+}
+
+.tabla-hitos th {
+  background: #232f3e;
+  color: #fff;
+}
+
+.site-footer {
+  padding: 1.5rem 0;
+  background: #232f3e;
+  color: #e6e9ed;
+}
+
+.form-control:focus {
+  border-color: var(--naranja);
+  box-shadow: 0 0 0 .2rem rgb(196 85 0 / 20%);
+}
+
+.logos {
+  width: min(100%, 650px);
+}
+
+/* Logo en la barra de navegación */
+.logo-nav {
+  width: auto;
+  height: 2.5rem;
+}

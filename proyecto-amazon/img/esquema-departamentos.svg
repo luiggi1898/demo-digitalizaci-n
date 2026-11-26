@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" width="900" height="560" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="900" height="560" fill="#ffffff"/>
+  <text x="450" y="38" text-anchor="middle" font-size="24" font-weight="700" fill="#1f2933">Amazon: segmentos, departamentos y mercado estudiado</text>
+
+  <!-- Raíz -->
+  <rect x="350" y="60" width="200" height="50" rx="8" fill="#232f3e"/>
+  <text x="450" y="92" text-anchor="middle" font-size="20" font-weight="700" fill="#fff">Grupo Amazon</text>
+
+  <!-- Segmentos -->
+  <g stroke="#8b95a1" stroke-width="2">
+    <line x1="450" y1="110" x2="450" y2="130"/>
+    <line x1="150" y1="130" x2="750" y2="130"/>
+    <line x1="150" y1="130" x2="150" y2="150"/>
+    <line x1="450" y1="130" x2="450" y2="150"/>
+    <line x1="750" y1="130" x2="750" y2="150"/>
+  </g>
+  <g font-size="17" font-weight="700" text-anchor="middle">
+    <rect x="50" y="150" width="200" height="46" rx="8" fill="#555f6b"/>
+    <text x="150" y="179" fill="#fff">Norteamérica</text>
+    <rect x="350" y="150" width="200" height="46" rx="8" fill="#555f6b"/>
+    <text x="450" y="179" fill="#fff">Internacional</text>
+    <rect x="650" y="150" width="200" height="46" rx="8" fill="#555f6b"/>
+    <text x="750" y="179" fill="#fff">AWS (nube)</text>
+  </g>
+  <text x="450" y="220" text-anchor="middle" font-size="13" fill="#555f6b">Segmentos que aparecen en el informe anual de Amazon</text>
+
+  <!-- Departamentos del proceso -->
+  <text x="30" y="262" font-size="18" font-weight="700" fill="#c45500">Departamentos que participan en preparar un pedido</text>
+  <g font-size="14" fill="#1f2933">
+    <rect x="30" y="275" width="200" height="90" rx="6" fill="#fff6ec" stroke="#f0d4b5"/>
+    <text x="42" y="298" font-weight="700">Operaciones</text>
+    <text x="42" y="320">Recibir, guardar, preparar</text>
+    <text x="42" y="340">y empaquetar pedidos.</text>
+
+    <rect x="245" y="275" width="200" height="90" rx="6" fill="#fff6ec" stroke="#f0d4b5"/>
+    <text x="257" y="298" font-weight="700">Amazon Robotics</text>
+    <text x="257" y="320">Diseña los robots y el</text>
+    <text x="257" y="340">software que los mueve.</text>
+
+    <rect x="460" y="275" width="200" height="90" rx="6" fill="#fff6ec" stroke="#f0d4b5"/>
+    <text x="472" y="298" font-weight="700">Transporte</text>
+    <text x="472" y="320">Lleva el paquete hasta</text>
+    <text x="472" y="340">la casa del cliente.</text>
+
+    <rect x="675" y="275" width="195" height="90" rx="6" fill="#fff6ec" stroke="#f0d4b5"/>
+    <text x="687" y="298" font-weight="700">AWS</text>
+    <text x="687" y="320">Nube e IA que usan</text>
+    <text x="687" y="340">los robots (DeepFleet).</text>
+  </g>
+
+  <!-- Mercado España -->
+  <text x="30" y="407" font-size="18" font-weight="700" fill="#c45500">Mercado estudiado: España</text>
+  <g font-size="15" fill="#1f2933">
+    <rect x="30" y="420" width="270" height="110" rx="6" fill="#f1f3f5" stroke="#d5d9de"/>
+    <text x="165" y="460" text-anchor="middle" font-size="30" font-weight="700" fill="#232f3e">2011</text>
+    <text x="165" y="490" text-anchor="middle">Abre Amazon.es</text>
+
+    <rect x="315" y="420" width="270" height="110" rx="6" fill="#f1f3f5" stroke="#d5d9de"/>
+    <text x="450" y="460" text-anchor="middle" font-size="30" font-weight="700" fill="#232f3e">2012</text>
+    <text x="450" y="490" text-anchor="middle">1.er centro logístico</text>
+    <text x="450" y="512" text-anchor="middle">(San Fernando de Henares)</text>
+
+    <rect x="600" y="420" width="270" height="110" rx="6" fill="#f1f3f5" stroke="#d5d9de"/>
+    <text x="735" y="460" text-anchor="middle" font-size="30" font-weight="700" fill="#232f3e">≈ 40</text>
+    <text x="735" y="490" text-anchor="middle">instalaciones en España</text>
+    <text x="735" y="512" text-anchor="middle">(2026)</text>
+  </g>
+</svg>

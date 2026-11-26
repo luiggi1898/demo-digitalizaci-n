@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="900" height="520" fill="#ffffff"/>
+  <text x="450" y="38" text-anchor="middle" font-size="24" font-weight="700" fill="#1f2933">Preparar un pedido en el almacén de Amazon</text>
+
+  <!-- Columna ANTES -->
+  <rect x="30" y="65" width="390" height="50" rx="8" fill="#555f6b"/>
+  <text x="225" y="97" text-anchor="middle" font-size="20" font-weight="700" fill="#fff">ANTES (sin robots)</text>
+  <!-- Columna DESPUÉS -->
+  <rect x="480" y="65" width="390" height="50" rx="8" fill="#c45500"/>
+  <text x="675" y="97" text-anchor="middle" font-size="20" font-weight="700" fill="#fff">DESPUÉS (con robots, desde 2012)</text>
+
+  <g font-size="15" fill="#1f2933">
+    <!-- Fila: Tarea -->
+    <rect x="30" y="130" width="390" height="80" rx="6" fill="#f1f3f5" stroke="#d5d9de"/>
+    <text x="45" y="155" font-weight="700">Tarea</text>
+    <text x="45" y="178">El trabajador camina por los pasillos</text>
+    <text x="45" y="198">buscando cada producto de la lista.</text>
+    <rect x="480" y="130" width="390" height="80" rx="6" fill="#fff6ec" stroke="#f0d4b5"/>
+    <text x="495" y="155" font-weight="700">Tarea</text>
+    <text x="495" y="178">El trabajador está en un puesto fijo y</text>
+    <text x="495" y="198">el robot le trae la estantería.</text>
+
+    <!-- Fila: Tecnología -->
+    <rect x="30" y="222" width="390" height="80" rx="6" fill="#f1f3f5" stroke="#d5d9de"/>
+    <text x="45" y="247" font-weight="700">Tecnología</text>
+    <text x="45" y="270">Escáner de mano y sistema</text>
+    <text x="45" y="290">de inventario.</text>
+    <rect x="480" y="222" width="390" height="80" rx="6" fill="#fff6ec" stroke="#f0d4b5"/>
+    <text x="495" y="247" font-weight="700">Tecnología</text>
+    <text x="495" y="270">Robots móviles (Kiva), software de control</text>
+    <text x="495" y="290">e IA DeepFleet (2025).</text>
+
+    <!-- Fila: Información -->
+    <rect x="30" y="314" width="390" height="80" rx="6" fill="#f1f3f5" stroke="#d5d9de"/>
+    <text x="45" y="339" font-weight="700">Información que circula</text>
+    <text x="45" y="362">El sistema indica en qué estantería</text>
+    <text x="45" y="382">está cada producto.</text>
+    <rect x="480" y="314" width="390" height="80" rx="6" fill="#fff6ec" stroke="#f0d4b5"/>
+    <text x="495" y="339" font-weight="700">Información que circula</text>
+    <text x="495" y="362">El sistema decide qué robot va a cada</text>
+    <text x="495" y="382">estantería y por qué camino.</text>
+
+    <!-- Fila: Personas -->
+    <rect x="30" y="406" width="390" height="80" rx="6" fill="#f1f3f5" stroke="#d5d9de"/>
+    <text x="45" y="431" font-weight="700">Para las personas</text>
+    <text x="45" y="454">Muchos kilómetros andando y más</text>
+    <text x="45" y="474">tiempo por pedido.</text>
+    <rect x="480" y="406" width="390" height="80" rx="6" fill="#fff6ec" stroke="#f0d4b5"/>
+    <text x="495" y="431" font-weight="700">Para las personas</text>
+    <text x="495" y="454">Caminan menos y hay trabajos nuevos,</text>
+    <text x="495" y="474">como mantener los robots.</text>
+  </g>
+
+  <!-- Flechas -->
+  <g fill="#c45500">
+    <polygon points="428,160 466,170 428,180"/>
+    <polygon points="428,252 466,262 428,272"/>
+    <polygon points="428,344 466,354 428,364"/>
+    <polygon points="428,436 466,446 428,456"/>
+  </g>
+</svg>

@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Proyecto de Digitalización sobre Amazon: historia, organización y mercados.">
+  <title>Inicio | Amazon: de librería online a almacén robotizado</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/css/bootstrap.min.css"
+        rel="stylesheet" integrity="sha384-yEPZ7jP9S0QKiUQ0m3jjsO4ProIW7wvR9gXkI7JOGa2XVsw53Yke2bsdkBbjmmiX"
+        crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="d-flex flex-column min-vh-100">
+  <a class="visually-hidden-focusable skip-link" href="#contenido">Saltar al contenido</a>
+
+  <nav class="navbar navbar-expand-md fixed-top site-nav" aria-label="Navegación principal">
+    <div class="container">
+      <a class="navbar-brand fw-bold d-flex align-items-center gap-2" href="index.html">
+        <img src="img/logo-amazon.png" class="logo-nav" width="500" height="317" alt="">
+        Proyecto Amazon
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#menuPrincipal" aria-controls="menuPrincipal"
+              aria-expanded="false" aria-label="Mostrar u ocultar la navegación">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menuPrincipal">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="index.html" aria-current="page">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="evolucion.html">Evolución</a></li>
+          <li class="nav-item"><a class="nav-link" href="futuro.html">Mejora digital</a></li>
+          <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main id="contenido" tabindex="-1">
+    <header class="cabecera">
+      <div class="container">
+        <h1>Amazon: de librería online a almacén robotizado</h1>
+        <p class="pregunta mt-3">
+          ¿Cómo ha cambiado la tecnología la forma de trabajar, vender y generar valor de Amazon,
+          y qué mejora digital propondría para su futuro?
+        </p>
+        <p class="mb-0">
+          En este proyecto me centro en un proceso: <strong>cómo se prepara un pedido y qué papel
+          tiene la robótica en el almacén</strong>.
+        </p>
+      </div>
+    </header>
+
+    <!-- Identidad e historia -->
+    <section aria-labelledby="titulo-historia">
+      <div class="container">
+        <h2 id="titulo-historia">Identidad e historia</h2>
+        <div class="row g-4">
+          <div class="col-md-6">
+            <h3 class="h5">Cómo empezó</h3>
+            <p>
+              Jeff Bezos fundó Amazon en 1994 en Bellevue, Washington (Estados Unidos).
+              La web abrió en 1995 como una <strong>librería online</strong>: vendía libros por
+              Internet a cualquier persona con conexión, sin tener tiendas físicas.
+              Al principio los pedidos se preparaban a mano y se enviaban por correo.
+            </p>
+          </div>
+          <div class="col-md-6">
+            <h3 class="h5">Cómo vende hoy</h3>
+            <p>
+              Hoy vende casi cualquier tipo de producto en su tienda online, donde también venden
+              otras empresas (Marketplace). Además tiene suscripciones como Prime,
+              dispositivos como Alexa o Kindle y servicios en la nube con AWS.
+              Los pedidos se preparan en centros logísticos donde trabajan personas junto a robots.
+            </p>
+          </div>
+        </div>
+
+        <figure class="mt-3 text-center">
+          <img src="img/logos-amazon.png" class="logos" width="1000" height="563"
+               alt="Logotipos de Amazon de 1995 a 2000: empieza con una A con forma de río y el lema Earth's Biggest Bookstore y termina con la palabra amazon y una flecha naranja">
+          <figcaption class="mt-2">
+            Evolución del logotipo de Amazon (1995–2000). En 1998 todavía se presentaba como
+            “la librería más grande del mundo”.
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- Organización -->
+    <section class="bg-light" aria-labelledby="titulo-organizacion">
+      <div class="container">
+        <h2 id="titulo-organizacion">Organización</h2>
+        <p>
+          Amazon no publica un organigrama completo. En su informe anual divide el negocio en tres
+          segmentos: <strong>Norteamérica</strong>, <strong>Internacional</strong> y <strong>AWS</strong>.
+          Las áreas que he podido documentar y que participan en la preparación de un pedido son:
+        </p>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-3">
+          <div class="col">
+            <div class="card h-100"><div class="card-body">
+              <h3 class="h6 fw-bold">Operaciones</h3>
+              <p class="mb-0">Gestiona los centros logísticos: recibir, guardar, preparar y empaquetar pedidos.</p>
+            </div></div>
+          </div>
+          <div class="col">
+            <div class="card h-100"><div class="card-body">
+              <h3 class="h6 fw-bold">Amazon Robotics</h3>
+              <p class="mb-0">Diseña los robots y el software que mueven las estanterías y los paquetes.</p>
+            </div></div>
+          </div>
+          <div class="col">
+            <div class="card h-100"><div class="card-body">
+              <h3 class="h6 fw-bold">Transporte</h3>
+              <p class="mb-0">Lleva los paquetes desde el centro logístico hasta la casa del cliente.</p>
+            </div></div>
+          </div>
+          <div class="col">
+            <div class="card h-100"><div class="card-body">
+              <h3 class="h6 fw-bold">AWS</h3>
+              <p class="mb-0">Da la infraestructura en la nube y las herramientas de IA que usan los robots.</p>
+            </div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Presencia geográfica -->
+    <section aria-labelledby="titulo-mercados">
+      <div class="container">
+        <h2 id="titulo-mercados">Presencia geográfica</h2>
+        <p>
+          El grupo Amazon vende en tiendas online de muchos países de América, Europa, Asia y Oriente Medio.
+          Para este proyecto estudio el <strong>mercado español</strong>:
+        </p>
+        <ul>
+          <li><strong>2011:</strong> abre Amazon.es.</li>
+          <li><strong>2012:</strong> abre su primer centro logístico en España, en San Fernando de Henares (Madrid).</li>
+          <li><strong>2026:</strong> según la propia empresa, tiene unas 40 instalaciones en España, entre centros de operaciones y oficinas.</li>
+        </ul>
+        <p class="small text-secondary">Los datos son del grupo Amazon en España, no de una franquicia.</p>
+
+        <figure class="mt-4">
+          <img src="img/esquema-departamentos.svg" width="900" height="560"
+               alt="Esquema: el grupo Amazon se divide en Norteamérica, Internacional y AWS. En el pedido participan Operaciones, Amazon Robotics, Transporte y AWS. En España abrió Amazon.es en 2011, su primer centro logístico en 2012 y tiene unas 40 instalaciones en 2026.">
+          <figcaption class="mt-2">Fuentes: informe anual de Amazon y notas de prensa de Amazon España.</figcaption>
+        </figure>
+
+        <a class="btn btn-naranja mt-3" href="evolucion.html">Ver la evolución tecnológica</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer mt-auto">
+    <div class="container d-flex flex-wrap justify-content-between gap-2">
+      <span>Proyecto de Digitalización · Luiggi</span>
+      <small>Trabajo de clase, sin relación oficial con Amazon</small>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-WyOxWvTyr1QaMPfiPJSv76iReVthorl5uWlFtZPyK0IEB0hGzo9y5Bp9mYanr8Bu"
+          crossorigin="anonymous"></script>
+</body>
+</html>
